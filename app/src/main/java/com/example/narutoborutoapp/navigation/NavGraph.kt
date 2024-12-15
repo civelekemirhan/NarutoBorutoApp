@@ -26,7 +26,7 @@ fun SetupNavGraph(navController: NavHostController) {
             WelcomeScreen(navController = navController)
         }
         composable(route = HOME_SCREEN) {
-            HomeScreen()
+            HomeScreen(navController = navController)
         }
         composable(route = SEARCH_SCREEN) {
 
